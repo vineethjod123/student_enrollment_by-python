@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h2>Add Student</h2>
+<form method="post">
+    <label for="student_id">Student ID:</label>
+    <input type="text" id="student_id" name="student_id" required><br>
+
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required><br>
+
+    <label for="age">Age:</label>
+    <input type="text" id="age" name="age" required><br>
+
+    <label for="address">Address:</label>
+    <input type="text" id="address" name="address" required><br>
+
+    <label for="course">Course:</label>
+    <input type="text" id="course" name="course" required><br>
+
+    <button type="submit">Add Student</button>
+</form>
+{% endblock %}
